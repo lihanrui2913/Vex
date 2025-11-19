@@ -3,6 +3,9 @@ pub mod config;
 pub mod error;
 pub mod utils;
 
+#[cfg(test)]
+mod tests;
+
 use anyhow::Result;
 use clap::Parser;
 
